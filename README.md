@@ -16,10 +16,11 @@ El programa 3 calcula el promedio de 5 calificaciones, es una estructura de acum
 ## video demostrativo
 Aqui hay un video donde muestro y explico a grandes rasgos que hice y por que lo hice bajo estos metodos, agradezco la atencion y adjunto el enlace en la parte posterior:
 
-[Video explicacion](https://www.youtube.com/watch?v=FRB7w2SnTjc)
+[Video explicacion](https://youtu.be/WYyZWtFmnN0)
 
 ## Datos
 **Autor:** Daza Jimenez Jorge Alejandro de Matricula 26491013 A Jueves 10 de Septiembre de 2026
 *Declaro que he utilizado herramientas de IA para eficientizar la estructura de mi programa, como preguntar si podia mostrar el imc fuera de las condiciones para ahorrar lines de codigo; ademas de utilizarla para aprender a utilizar Github. Todo el contenido ha sido verificado y adaptado por mi cuenta. Adjunto los prompts
 utilizados como evidencia:*
 
+[Prompts](https://drive.google.com/drive/folders/1wtuhxr_hInI2YL4vkpSfxteAdMqd-gla?usp=sharing)
