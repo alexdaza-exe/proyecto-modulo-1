@@ -1,0 +1,26 @@
+Algoritmo indicemc
+	imc : Real
+	peso : Real
+	altura : Real
+	definir categoria Como caracter
+	escribir "ingrese el peso del cliente en kg"
+	leer peso
+	escribir "ingrese la altura del cliente en metros"
+	leer altura
+	imc = peso/(altura*altura)
+	Si imc < 18.5 Entonces
+		categoria = "Bajo peso"
+	SiNo
+		Si imc < 25 Entonces
+			categoria = "Normal"
+		SiNo
+			Si imc < 30 Entonces
+				categoria = "Sobrepeso"
+			SiNo
+				categoria = "Obesidad"
+			FinSi
+		FinSi
+	FinSi
+	Escribir "Su Indice de Masa Corporal es de: ", imc
+	Escribir "Su categoria es: ", categoria
+FinAlgoritmo

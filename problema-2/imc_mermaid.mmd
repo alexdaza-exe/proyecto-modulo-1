@@ -1,0 +1,25 @@
+flowchart TD
+    A([Inicio]) --> B["Definir imc, peso, altura como real, Definir categoria como caracter"]
+    B --> C[/"Escribir: Ingrese el peso del cliente en kg"/]
+    C --> D[/Leer peso/]
+    D --> E[/"Escribir: Ingrese la altura del cliente en metros"/]
+    E --> F[/Leer altura/]
+    F --> G["imc = peso / (altura * altura)"]
+    G --> H{"¿imc < 18.5?"}
+
+    H --|Sí|--> I["categoria = 'Bajo peso'"]
+    H --|No|--> J{"¿imc < 25?"}
+
+    J -->|Sí| K["categoria = 'Normal'"]
+    J -->|No| L{"¿imc < 30?"}
+
+    L -->|Sí| M["categoria = 'Sobrepeso'"]
+    L -->|No| N["categoria = 'Obesidad'"]
+
+    I --> O[/"Escribir: Su Índice de Masa Corporal es de: imc"/]
+    K --> O
+    M --> O
+    N --> O
+
+    O --> P[/"Escribir: Su categoría es: categoria"/]
+    P --> Q([Fin])
