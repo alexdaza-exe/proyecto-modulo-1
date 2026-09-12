@@ -1,0 +1,12 @@
+Algoritmo añobisiesto
+	year : Entero
+	r : Real
+	escribir "bienvenido al programa para calcular si el año es bisiesto o no"
+	escribir "Ingrese el año a calcular: "
+	leer year
+	Si ((year % 4 == 0) & (year % 100 <> 0)) | (year % 400 == 0) Entonces
+		Escribir "El año es bisiesto"
+	SiNo
+		Escribir "El año no es bisiesto"
+	FinSi
+FinAlgoritmo

@@ -1,0 +1,12 @@
+flowchart TD
+    A([Inicio]) --> B["Definir year como entero<br/>Definir r como real"]
+    B --> C[/Escribir: Bienvenido al programa para calcular si el año es bisiesto o no/]
+    C --> D[/Escribir: Ingrese el año a calcular/]
+    D --> E[/Leer year/]
+    E --> F{"¿((year % 4 == 0) & (year % 100 <> 0)) | (year % 400 == 0)?"}
+
+    F -->|Sí| G[/Escribir: El año es bisiesto/]
+    F -->|No| H[/Escribir: El año no es bisiesto/]
+
+    G --> I([Fin])
+    H --> I
