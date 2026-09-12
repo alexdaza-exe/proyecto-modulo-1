@@ -1,0 +1,22 @@
+flowchart TD
+    A([Inicio]) --> B["Definir cal1, cal2, cal3, cal4, cal5 como real<br/>Definir promedio como real"]
+    B --> C[/"Escribir: ~~~Bienvenido al programa de promedios~~~"/]
+    C --> D[/"Escribir: Para empezar, presione cualquier tecla"/]
+    D --> E["Esperar tecla"]
+    E --> F[/"Escribir: Ingrese la calificación 1°"/]
+    F --> G[/Leer cal1/]
+    G --> H[/"Escribir: Ingrese la calificación 2°"/]
+    H --> I[/Leer cal2/]
+    I --> J[/"Escribir: Ingrese la calificación 3°"/]
+    J --> K[/Leer cal3/]
+    K --> L[/"Escribir: Ingrese la calificación 4°"/]
+    L --> M[/Leer cal4/]
+    M --> N[/"Escribir: Ingrese la calificación 5°"/]
+    N --> O[/Leer cal5/]
+    O --> P["promedio = (cal1 + cal2 + cal3 + cal4 + cal5) / 5"]
+    P --> Q[/"Escribir: La calificación final del alumno es promedio"/]
+    Q --> R{"¿promedio >= 70?"}
+    R --|Sí|--> S[/"Escribir: El alumno aprobó, ¡enhorabuena!"/]
+    R --|No|-->T[/"Escribir: El alumno reprobó"/]
+    S --> U([Fin])
+    T --> U
